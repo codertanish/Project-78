@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+
+<title>
+  Project 78  
+</title>
+
+<script>
+
+var images= [ https://img.pngio.com/charizard-shiny-png-png-image-shiny-charizard-png-785_768.png, https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dd58e350-6762-44ba-a196-57d616d1e436/d7mnh82-df9b2d9f-d631-4c0c-aa55-90d66d4b2f81.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RkNThlMzUwLTY3NjItNDRiYS1hMTk2LTU3ZDYxNmQxZTQzNlwvZDdtbmg4Mi1kZjliMmQ5Zi1kNjMxLTRjMGMtYWE1NS05MGQ2NmQ0YjJmODEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.oEDPCLrnUcRKLpo0yZTsnODHMSiUkK3d7ma1TR-8cEw, https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dd58e350-6762-44ba-a196-57d616d1e436/d7mnh8r-ba7aac99-8f2d-4ac3-bc59-0d07a5114e18.png/v1/fill/w_300,h_300,strp/shiny_mega_charizard_y_global_link_art_by_trainerparshen_d7mnh8r-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzAwIiwicGF0aCI6IlwvZlwvZGQ1OGUzNTAtNjc2Mi00NGJhLWExOTYtNTdkNjE2ZDFlNDM2XC9kN21uaDhyLWJhN2FhYzk5LThmMmQtNGFjMy1iYzU5LTBkMDdhNTExNGUxOC5wbmciLCJ3aWR0aCI6Ijw9MzAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.lPne2nPbnAFUl8v00Lgi9hfBlyLQYVREWdJjK3SxGR8 ];
+var names= [ Shiny Charizard, Shiny Mega Charizard X, Shiny Mega Charizard Y];
+
+
+var i=0;
+function update()
+
+{ i++; 
+
+var number_of_pokemon = 3;
+if(i>number_of_pokemon)
+
+{
+     i = 0;
+}
+
+var updatedImage= images[i];
+var updatedName= names[i];
+document.getElementById(Name).innerHTML = updatedName;
+document.getElementById(Image).src = updatedImage;
+
+}
+
+
+
+</script>
+
+
+
+
+</head>
+
+<body>
+    <h6> Pokemon Book </h6>
+    <img src="" id="Image">
+    <h4 id="Name"> </h4>
+<button onclick="update();"> Next </button>
+
+</body>
+
+</html>
